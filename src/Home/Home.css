@@ -1,0 +1,19 @@
+.Home::before{content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('./NA_October_10-removebg.png');
+    background-size:700px;
+    background-position:450px; 
+    background-repeat: no-repeat;
+  }
+  @media (max-width: 768px) {
+    .Home::before{
+      background-size:contain;
+      background-position:center;
+      opacity: 0.8;
+    }
+  }

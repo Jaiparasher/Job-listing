@@ -1,0 +1,16 @@
+.wrapper {
+    border : 1px solid #e8e8e8;
+    cursor : pointer  ;
+    transition : 0.3s ;
+}
+
+
+.wrapper:hover  {
+    box-Shadow : 0px 5px 25px rgba( 0 , 0 , 0 , 0.1 )  ;
+    border-left: 6px solid #4064E4;
+}
+
+.included{
+    color:white;
+    background-color: black;
+}    
